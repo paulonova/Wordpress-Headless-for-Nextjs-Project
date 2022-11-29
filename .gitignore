@@ -2,6 +2,9 @@ node_modules/
 package-lock.json/
 .DS_Store
 
+wp-includes/
+wp-admin/
+
 wp-content/*
 !wp-content/mu-plugins/
 !wp-content/plugins/
