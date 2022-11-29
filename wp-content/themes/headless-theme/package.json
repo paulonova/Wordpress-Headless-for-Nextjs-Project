@@ -1,0 +1,21 @@
+{
+  "name": "theme-template",
+  "version": "1.0.0",
+  "description": "Gulp test",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Paulo",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.27.7",
+    "cssnano": "^5.0.9",
+    "gulp": "^4.0.2",
+    "gulp-postcss": "^9.0.1",
+    "gulp-sass": "^5.0.0",
+    "gulp-terser": "^2.1.0",
+    "postcss": "^8.3.11",
+    "sass": "^1.43.4"
+  }
+}

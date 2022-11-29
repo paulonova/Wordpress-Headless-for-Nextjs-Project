@@ -1,0 +1,50 @@
+
+.content-block{
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  padding: 20px;
+}
+
+.left-block{
+  width: 50%;
+  border: 1px solid darkgray;
+}
+
+.right-block{
+  width: 50%;
+}
+
+.card-book{
+  color: white;
+  @include flexboxweb;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  margin: 10px;
+
+  .image-block .image{
+    background-color: tomato;
+    height: 100%;
+    width: 200px;
+  }
+
+  .info-block{
+    background-color: indigo;
+    padding: 10px 20px;
+    width: 75%;
+
+    small{
+      display: block;
+    }
+  }
+}
+
+.price{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+
+
